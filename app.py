@@ -17,10 +17,9 @@ with st.sidebar:
 
     selected_model = st.selectbox("Select Model", models)
 
-    if st.button("Clear Chat"):
+    if st.button("New Chat"):
         st.session_state.messages = []
         st.rerun()
-
 
 # Main screen
 st.title("How can I help you?")
