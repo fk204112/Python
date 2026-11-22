@@ -18,7 +18,7 @@ with st.sidebar:
     selected_model = st.selectbox("Select Model", models)
 
     if st.button("New Chat"):
-        st.session_state.messages = []
+        st.session_state.messages = [] # stores the conversation history.#
         st.rerun()
 
 # Main screen
